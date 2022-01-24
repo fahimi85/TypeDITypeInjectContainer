@@ -1,0 +1,23 @@
+{
+  "name": "di_container",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch .\\**\\*.ts --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "dist/*.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fahimi85/TypeDITypeInjectContainer.git"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typed-inject": "^3.0.1",
+    "typedi": "^0.10.0"
+  }
+}
